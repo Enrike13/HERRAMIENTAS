@@ -1,0 +1,33 @@
+0*----> Luego de haber creado el repositorio en GITLAB: Copia y pega la ruta o cuenta de usuario le cual utilizarás para subir tus archivos.
+
+git config --global user.name "Enrike13"
+git config --global user.email "enrikefen20@gmail.com"
+
+
+
+1*----> Iniciar el git BASH en el proyecto:
+
+git init
+
+
+
+2*----> Agregar los archivos al Stegin area(area de ensayo), que es como un lugar de almacenamiento temporal, puedes agregar archivo * archivo o todo defrente: adicionalmente a esto, puedes hacer un: git status PARA SABER SI TUS archivos ya se copiaron al area de ensayo.
+
+git add .
+
+
+
+3*----> Tienes que ponerle un Comentarios:
+
+git commit -m "Esta es la primera version del pry"
+
+
+
+4*----> Copiamos el git remout:
+
+git remote add origin git@gitlab.com:enrike13/quick-publish.git
+
+
+5*----> Y por ultimo subiremos los archivos al repositorio:
+
+git push -u origin master

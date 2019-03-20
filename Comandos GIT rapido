@@ -1,5 +1,5 @@
 $ git init
-$ git config --global -l     -----> MUESTRA QUIEN HA INICIADO SESION (NOMBRE Y EMAIL) 
+$ git config --global -l                        -----> MUESTRA QUIEN HA INICIADO SESION (NOMBRE Y EMAIL) 
 $ git config --global user.name "******"
 $ git config --global user.email "********@gmail.com"
 $ git status
@@ -7,13 +7,16 @@ $ git ad .
 $ git status
 $ git commit -m "Mi commit inicial"
 $ git add *
-$ git log                     -----> Permite ver el historial de los comit
+$ git log                                       -----> Permite ver el historial de los comit
 
 REPSITORIO REMOTO ---->
 $ git remote add arigin https://github.com/Enrike13/trabTiangulo.git
 $ git remote add origin git@github.com:Enrike13/trabTiangulo.git
 $ git push -u origin --all
 $ git push -u origin master
+
+AGREGA UN COMMIT A LA RAMA MASTER ---->
+$ git push origin master
 
 BAJAR LOS CAMBIOS QUE OTROS DESARROLLADORES HAN AGREGADO ---->
 $ git pull origin master

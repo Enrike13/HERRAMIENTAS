@@ -1,23 +1,29 @@
+=================================== REPSITORIO LOCAL ===================================
 $ git init
 $ git config --global -l                        -----> MUESTRA QUIEN HA INICIADO SESION (NOMBRE Y EMAIL) 
 $ git config --global user.name "******"
 $ git config --global user.email "********@gmail.com"
+$ git status             --> Ver el estado de los ficheros, si ya fueron agregados o no. Al repositorio local 
+$ git ad PryOperadores   --> Agrega al repositorio local el fichero PryOperadores
 $ git status
-$ git ad .
-$ git status
+$ git add *              --> Agrega todo los ficheros, carptas y demás; al repositorio local
 $ git commit -m "Mi commit inicial"
-$ git add *
-$ git log                                       -----> Permite ver el historial de los comit
-git log --online                                -----> ver el historial mas simplificado
 
-REPSITORIO REMOTO ---->
-$ git remote add arigin https://github.com/Enrike13/trabTiangulo.git
-$ git remote add origin git@github.com:Enrike13/trabTiangulo.git
+$ git log                                       -----> Permite ver el historial de los comit
+git log --online                                -----> ver el historial de los comit mas simplificado
+
+
+=================================== REPSITORIO REMOTO ===================================
+$ git remote add repOrigen https://github.com/Enrike13/trabTiangulo.git   -----> {Nombre repo(repOrigen)} + URL del repositorio remoto
+                                                -----> Ejemplo.   $ git remote add origin git@github.com:Enrike13/trabTiangulo.git
+$ git remote -v                                 -----> Muestra el repositorio en el cual estás trabajando
+
 $ git push -u origin --all
 $ git push -u origin master
 
 AGREGA UN COMMIT A LA RAMA MASTER ---->
-$ git push origin master
+$ git push repOrigen master                     -----> {Nombre repo(repOrigen)} + {Nombre de la rama(master)}
+
 
 BAJAR LOS CAMBIOS QUE OTROS DESARROLLADORES HAN AGREGADO ---->
-$ git pull origin master
+$ git pull origin master  ----> Esta linea de comando debe ser ejecutada en la carpeta donde se desea descargar el proyecto

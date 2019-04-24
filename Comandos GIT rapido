@@ -8,6 +8,7 @@ $ git status
 $ git commit -m "Mi commit inicial"
 $ git add *
 $ git log                                       -----> Permite ver el historial de los comit
+git log --online                                -----> ver el historial mas simplificado
 
 REPSITORIO REMOTO ---->
 $ git remote add arigin https://github.com/Enrike13/trabTiangulo.git

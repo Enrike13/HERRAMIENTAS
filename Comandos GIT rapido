@@ -7,7 +7,7 @@ $ git status             --> Ver el estado de los ficheros, si ya fueron agregad
 $ git ad PryOperadores   --> Agrega al repositorio local el fichero PryOperadores
 $ git status
 $ git add *              --> Agrega todo los ficheros, carptas y demás; al repositorio local
-$ git commit -m "Mi commit inicial"
+$ git commit -m "Mi commit inicial"             -----> Confirma los cambios en un documento
 
 $ git log                                       -----> Permite ver el historial de los comit
 git log --online                                -----> ver el historial de los comit mas simplificado
